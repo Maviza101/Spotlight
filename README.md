@@ -128,7 +128,7 @@ Line animation duration
 Perform a click on target view
 
 ### usageId(String)
-Unique id for each spotlight
+Required. Unique id for each Spotlight. If you create two or more Spotlights that have no usageId, only one of them will be shown, which is the one in the earliest activity.
 
 ### dismissOnTouch(boolean)
 Dismiss spotlight on touch outside
